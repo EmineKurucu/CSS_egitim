@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Border Types</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale = 1.0>
+        <style>
+            * {
+                background-color: rgb(253, 253, 253);
+                padding : 15px;
+                margin : 15px;
+            }
+            p.dotted {
+                border-style: dotted;
+                border-width: 10px;
+                border-color: brown orange yellow green; /*üst sağ alt sol */
+            }
+
+            p.dashed {
+                border-style: dashed;
+            }
+            p.double {
+                border-style: double;
+                border-width: 20px 10px; /*üst alt 20px yanlar 10px */
+            }
+            p.groove {
+                border-style: groove;
+                border-color: blueviolet;
+            }
+
+            p.solid {
+                border-style: solid;
+                border-width: medium;
+            }
+
+            p.ridge {
+                border-style: ridge;
+            }
+
+            p.inset {
+                border-style: inset;
+            }
+
+            p.outset {
+                border-style: outset;
+            }
+
+            p.none {
+                border-style: none;
+            }
+
+            p.hidden {
+                border-style: hidden;
+            }
+
+            p.inherit {
+                border-style: inherit;
+            }
+
+            p.mix {
+                border-style: dotted dashed solid double;
+            }
+
+            p.deneme {
+                border: 5px solid red;
+            }
+
+            p.roundend {
+                border: 6px solid purple;
+                border-radius: 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Farklı borer stilleri.</h1>
+        <p class="dotted">Dotted</p>
+        <p class="dashed">Dashed</p>
+        <p class="double">Double</p>
+        <p class="groove">Groove</p>
+        <p class="solid">Solid</p>
+        <p class="ridge">Ridge</p>
+        <p class="inset">Inset</p>
+        <p class="outset">Outset</p>
+        <p class="none">None</p>
+        <p class="hidden">Hidden</p>
+        <p class="inherit">Inherit</p>
+        <p class="mix">Mix: Dotted Dashed Solid Double</p>
+        <p class="deneme">Deneme</p>
+        <p class="roundend">Rounded</p>
+    </body>
+</html>
