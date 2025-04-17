@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Opacity2</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale = 1.0>
+        <style>
+            div {
+                background-color: green;
+            }
+
+            div.ten {
+                background-color: rgba(0,128,0,0.1);
+            }
+
+            div.thirty {
+                background-color: rgba(0,128,0,0.3);
+            }
+
+            div.sixty {
+                background-color: rgba(0,128,0,0.6);
+            }
+
+            div.hundred {
+                background-color: rgba(0,128,0,1);
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2>Style içinde opacity</h2>
+
+        <div style="opacity: 0.1;">
+            <h1 >Opacity %10</h1>
+        </div>
+
+        <div style="opacity: 0.3;">
+            <h1 >Opacity %30</h1>
+        </div>
+        <div style="opacity: 0.6;"">
+            <h1>Opacity %60</h1>
+        </div>
+
+        <div>
+            <h1>Opacity 1 (DEAFULT)</h1>
+        </div>
+
+        <h2>RGB ile opacity</h2>
+        <div class="ten">
+            <h1>%10 Opacity</h1>
+        </div>
+
+        <div class="thirty">
+            <h1>%30 Opacity</h1>
+        </div>
+
+        <div class="sixty">
+            <h1>%60 Opacity </h1>
+        </div>
+
+        <div class="hundred">
+            <h1>%100 Opacity</h1>
+        </div>
+    </body>
+
+</html>
