@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Decoration Line</title>
+        <style>
+            h1{
+                text-decoration-line: overline;
+                text-decoration-color: darkcyan;
+                text-decoration-style: dashed;
+                text-decoration-thickness: auto ;
+                margin: 20px;
+            }
+
+            h2 {
+                text-decoration-line: underline;
+                text-decoration-color: darkorange;
+                text-decoration-style: double;
+                text-decoration-thickness: 5px;
+                margin: 20px;
+            }
+
+            h3 {
+                text-decoration-line: line-through;
+                text-decoration-color: darkred;
+                text-decoration-style:dotted ;
+                text-decoration-thickness: 20%;
+                padding: 20px;
+            }
+
+            p.ex {
+                text-decoration-line: overline underline; /*ikisini beraber çizer */ 
+                text-decoration-color: darkorchid;
+                padding: 20px;
+            }
+
+            p.shorthand {
+                text-decoration: line-through dashed darkgreen 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Overline text decoration</h1>
+        <h2>Underline text decoration</h2>
+        <h3>Line-through text decoration</h3>
+        <p class="ex">Overline and underline text decoration</p>
+        <p><strong>NOTE: </strong>It is not recommended to underline text that is not a link, as this often confuses 
+            the reader</p>
+
+        <p class="shorthand">And this is the shorthand way</p>
+    </body>
+</html>
